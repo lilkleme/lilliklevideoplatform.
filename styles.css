@@ -1,0 +1,116 @@
+/* Grundlegende Reset-Regeln */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gesamtstruktur */
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Header */
+.Video {
+    color: white;
+   
+   }
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    grid-gap: 20px;
+    height: 50px;
+    
+    
+}
+
+.navbar a {
+    color: white;
+    
+}
+
+.navbar a:hover {
+    
+    height: 30px;
+    font-size: 25px;
+}
+
+/* Hauptbereich mit Grid */
+.main-content {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+
+   
+   
+}
+
+/* Video-Bereich */
+.video-section {
+    padding-left: 1px;
+    margin-left: 1px;
+    border-radius: 5px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    width: 500px;
+}
+
+
+}
+
+/* Artikel-Bereich */
+.article-section {
+box-shadow:10px 10px 20px rgb(110, 108, 108);
+height: 200px;
+    padding-left: 10px;
+
+   margin-left: 15px;
+   margin-bottom: 15px;
+    border-radius: 7px;
+    background-color: #fcf9f9;
+    
+}
+
+.kontakt-selection{
+
+
+
+}
+
+.info{
+    width: 400px;
+    height: 20px;
+}
+
+.info2{
+    width: 400px;
+    height: 25px;
+}
+
+.schrift{
+    font-size: 20px;
+}
+
+.knopf{
+    
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background-color:#004080;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+}
+
+    
